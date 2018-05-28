@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ruslan Ryazanov](https://up.htmlacademy.ru/htmlcss/21/user/800167).
-* Наставник: `Игорь Уваров`.
+* Наставник: [Игорь Уваров](https://up.htmlacademy.ru/htmlcss/21/user/59956).
 
 ---
 
