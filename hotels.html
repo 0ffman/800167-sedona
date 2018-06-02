@@ -26,8 +26,10 @@
 		
 		<!-- MAIN -->
 		<main class="main-content">
+			<!-- FILTER -->
 			<section class="filter-form">
-				<form action="">
+				<h2 class="visually-hidden">Подбор гостиницы</h2>
+				<form action="http://website.ru/html">
 					<fieldset class="filter-form-column">
 						<p>Инфраструктура:</p>
 						<input type="checkbox" id="pool">
@@ -52,11 +54,114 @@
 					</fieldset>
 					<fieldset class="filter-form-column">
 						<p>Стоимость в сутки (р):</p>
+						<div class="price">
+							<div class="price-fields">
+								<div class="price-field">
+									<label for="price-from">От</label>
+									<input type="text" id="price-from">
+								</div>
+								<div class="price-field">
+									<label for="price-to">До</label>
+									<input type="text" id="price-to">
+								</div>
+							</div>
+							<!-- <div class="price-panel"> Форму позже доделаю
+								
+							</div> -->
+						</div>
 					</fieldset>
 				</form>
 			</section>
-		</main>
+			<!-- END FILTER -->
+
+			<!-- HOTELS -->
+			<section class="hotels">
+				<h2 class="visually-hidden">Список гостиниц</h2>
+				<ul class="hotels-list">
+					<li class="hotels-list-item">
+						<div class="hotels-list-title">Найдено :3</div>
+					</li>
+					<li class="hotels-list-item">Сортировка:</li>
+					<li class="hotels-list-item">
+						<a href="#" class="hotels-list-link">По цене</a>
+					</li>
+					<li class="hotels-list-item">
+						<a href="#" class="hotels-list-link">По типу</a>
+					</li>
+					<li class="hotels-list-item">
+						<a href="#" class="hotels-list-link">По рейтингу</a>
+					</li>
+					<li class="hotels-list-item">
+						<a href="#" class="hotels-list-link hotels-list-arrow">Вверх</a>
+						<a href="#" class="hotels-list-link hotels-list-arrow">Вниз</a>
+					</li>
+				</ul>
+			</section>
 			
+			<section class="hotel">
+				<div class="hotel-image">
+					<img src="img/" alt="Amara Resort" width="200" height="150">
+				</div>
+				<div class="hotel-description">
+					<h2 class="hotel-heading">Amara Resort & Spa</h2>
+					<div class="hotel-column">
+						<p>Гостиница</p>
+						<a href="#" class="button-blue">Подробнее</a>
+					</div>
+					<div class="hotel-column">
+						<p>От 4000 Р.</p>
+						<a href="#" class="button-brown">Забронировать</a>
+					</div>
+				</div>
+				<div class="hotel-rating">
+					<div class="hotel-rating-stars">4 звезды</div>
+					<div class="hotel-rating-text">Рейтинг: 8,5</div>
+				</div>
+			</section>
+			
+			<section class="hotel">
+				<div class="hotel-image">
+					<img src="img/" alt="Desert Quail" width="200" height="150">
+				</div>
+				<div class="hotel-description">
+					<h2 class="hotel-heading">Desert Quail Inn</h2>
+					<div class="hotel-column">
+						<p>Мотель</p>
+						<a href="#" class="button-blue">Подробнее</a>
+					</div>
+					<div class="hotel-column">
+						<p>От 3000 Р.</p>
+						<a href="#" class="button-brown">Забронировать</a>
+					</div>
+				</div>
+				<div class="hotel-rating">
+					<div class="hotel-rating-stars">4 звезды</div>
+					<div class="hotel-rating-text">Рейтинг: 8,9</div>
+				</div>
+			</section>
+
+			<section class="hotel">
+				<div class="hotel-image">
+					<img src="img/" alt="Villas at Poco" width="200" height="150">
+				</div>
+				<div class="hotel-description">
+					<h2 class="hotel-heading">Villas at Poco Diablo</h2>
+					<div class="hotel-column">
+						<p>Апартаменты</p>
+						<a href="#" class="button-blue">Подробнее</a>
+					</div>
+					<div class="hotel-column">
+						<p>От 2000 Р.</p>
+						<a href="#" class="button-brown">Забронировать</a>
+					</div>
+				</div>
+				<div class="hotel-rating">
+					<div class="hotel-rating-stars">2 звезды</div>
+					<div class="hotel-rating-text">Рейтинг: 9,2</div>
+				</div>
+			</section>
+			<!-- END HOTELS -->
+		</main>
 		<!-- END MAIN -->
 		
 		<!-- FOOTER -->
