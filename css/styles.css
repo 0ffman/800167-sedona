@@ -271,6 +271,11 @@ a.main-list-brown  {
 	border: 2px solid #ffffff;
 	border-radius: 2px;
 }
+
+.filter-form-submit:hover {
+	color: #000000;
+	background-color: #ffffff;
+}
 /*END FILTER*/
 /*HOTELS*/
 .search-results-header {
