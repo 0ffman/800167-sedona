@@ -86,5 +86,36 @@ a {
 .feature-blue .feature-text {
 	color: #ffffff;
 }
+/*END FEATURES*/
+/*SEARCH & FORM*/
+.search {
+	text-align: center;
+}
+
+.search-question {
+	font-size: 30px;
+	line-height: 36px;
+}
+.search-text {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #333333;
+}
+
+.btn-search {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	
+	vertical-align: middle;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+
+	
+	background-color: #766357;
+	border: none;
+}
 
 
