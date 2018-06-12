@@ -15,3 +15,27 @@ body {
 a {
 	text-decoration: none;
 }
+
+/*.wrapper {
+	color: #000000;
+	background-color: #fff;
+}*/
+.main-header {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.main-list {
+	list-style: none;
+}
+
+.main-list a {
+	color: #000000;
+}
+.main-list a:hover {
+	color: #81b3d2;
+}
+.main-list a:focus {
+	color: #cacaca;
+}
+
