@@ -126,4 +126,23 @@ a {
 	background-color: #503e33;
 }
 
+.search-form-row input {
+	font: inherit;
+	text-transform: uppercase;
+
+	background-color: #f2f2f2;
+	border: none;
+}
+
+.search-form-row input:hover {
+	background-color: #ebebeb;
+}
+
+.search-form-row input:focus {
+	background-color: #ffffff;
+	border: 2px solid #e5e5e5;
+}
+
+
+
 
