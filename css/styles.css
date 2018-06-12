@@ -16,10 +16,12 @@ a {
 	text-decoration: none;
 }
 
-/*.wrapper {
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
 	color: #000000;
 	background-color: #fff;
-}*/
+}
 
 /*HEADER*/
 .main-header {
@@ -42,6 +44,9 @@ a {
 }
 /*END HEADER*/
 /*FEATURES*/
+.features-header {
+	text-align: center;
+}
 .features-header h1 {
 	font-size: 21px;
 }
@@ -50,5 +55,3 @@ a {
 	font-weight: 400;
 	color: #333333;
 }
-
-
