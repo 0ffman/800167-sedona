@@ -143,6 +143,39 @@ a {
 	border: 2px solid #e5e5e5;
 }
 
+.amount-btn {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	
+	color: #a9a9a9;
+	vertical-align: middle;
+	text-align: center;
+
+	border: none;
+}
+
+.amount-btn:hover {
+	color: #000000;
+}
+
+.amount-btn:focus {
+	color: #81b3d2;
+}
+
+.search-form-calendar {
+	width: 24px;
+	height: 23px;
+	vertical-align: middle;
+	
+	color: #cacaca;
+	background-image: url(../img/calendar.svg);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	
+	border: none;
+}
+
 
 
 
