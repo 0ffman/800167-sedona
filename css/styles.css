@@ -113,9 +113,17 @@ a {
 	color: #ffffff;
 	text-transform: uppercase;
 
-	
 	background-color: #766357;
 	border: none;
+}
+
+.btn-search:hover {
+	background-color: #604e43;
+}
+
+.btn-search:focus {
+	color: #928a85;
+	background-color: #503e33;
 }
 
 
