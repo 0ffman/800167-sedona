@@ -78,3 +78,13 @@ a {
 	color: #333333;
 }
 
+.feature-blue {
+	background-color: #81b3d2;
+	color: #ffffff;
+}
+.feature-blue .feature-number,
+.feature-blue .feature-text {
+	color: #ffffff;
+}
+
+
