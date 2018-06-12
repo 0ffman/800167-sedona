@@ -215,4 +215,10 @@ a {
 .footer-copyright b {
 	font-weight: 400;
 }
+/*END FOOTER*/
 
+/*HOTELS PAGE*/
+
+a.main-list-brown  {
+	color: #766357;
+}
