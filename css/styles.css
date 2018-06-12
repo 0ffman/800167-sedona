@@ -198,7 +198,21 @@ a {
 	color: #94b9d2;
 	background-color: #5496bd;
 }
+/*END SEARCH & FORM*/
+/*FOOTER*/
+.hash {
+	font-size: 21px;
+}
 
+.footer-social {
+	text-align: center;
+}
 
+.footer-copyright {
+	text-align: center;
+}
 
+.footer-copyright b {
+	font-weight: 400;
+}
 
