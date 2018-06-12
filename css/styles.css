@@ -55,3 +55,26 @@ a {
 	font-weight: 400;
 	color: #333333;
 }
+.features-list {
+	list-style: none;
+}
+
+.feature-item {
+	text-align: center;
+}
+
+.feature-item h2 {
+	font-size: 21px;
+	line-height: 21px;
+}
+
+.feature-item .feature-number {
+	font-weight: 400;
+	color: #333333;
+}
+
+.feature-item .feature-text {
+	font-weight: 400;
+	color: #333333;
+}
+
