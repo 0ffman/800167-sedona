@@ -271,3 +271,40 @@ a.main-list-brown  {
 	border: 2px solid #ffffff;
 	border-radius: 2px;
 }
+/*END FILTER*/
+/*HOTELS*/
+.search-results-header {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+}
+
+.search-results-header ul {
+	list-style: none;
+}
+
+.sorting-list-title {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+}
+
+.sorting-list-item a {
+	color: rgba(0,0,0,0.3);
+	border-bottom: 1px dashed #81b3d2;
+}
+
+.sorting-list-item a:hover {
+	color: #81b3d2;
+}
+
+.sorting-list-item a:focus {
+	color: #000000;
+	border: none;
+}
+.sorting-list-item a:active {
+	color: #81b3d2;
+	border: none;
+}
+
+
