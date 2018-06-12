@@ -308,3 +308,63 @@ a.main-list-brown  {
 }
 
 
+ul.hotel-list {
+	font-size: 14px;
+  	line-height: 21px;
+  	font-weight: 400;
+	
+	color: #333333;
+	list-style: none;
+}
+
+.hotel-list h3 {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.hotel-list h3:hover {
+	color: #81b3d2;
+}
+
+.hotel-list h3:active {
+	color: #cacaca;
+}
+
+.hotel a {
+	font-size: 14px;
+  	line-height: 21px;
+  	font-weight: 700;
+  	color: #ffffff;
+}
+
+.hotel .button-blue {
+	background-color: #81b3d2;
+}
+
+.hotel .button-blue:hover {
+	background-color: #669ec0;
+}
+.hotel .button-blue:active {
+	color: rgba(148,185,210,0.3);
+	background-color: #5496bd;
+}
+
+.hotel .button-brown {
+	background-color: #766357;
+}
+
+.hotel .button-brown:hover {
+	background-color: #604e43;
+}
+.hotel .button-brown:active {
+	color: rgba(146,138,133,0.3);
+	background-color: #503e33;
+}
+
+.hotel strong {
+	font-weight: 400;
+	color: #666666;
+	background-color: #f2f2f2;
+}
