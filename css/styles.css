@@ -222,3 +222,52 @@ a {
 a.main-list-brown  {
 	color: #766357;
 }
+/*FILTER*/
+.filter-form {
+	background-color: #3c719c; /* До подключения изображения */
+	color: #ffffff;
+}
+
+.filter-form-column {
+	border: none;
+}
+
+.filter-form-column legend {
+	font-size: 16px;
+	line-height: 21px;
+
+}
+
+.filter-form-column label {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+}
+
+.price-fields {
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+}
+.price-fields input[type="text"] {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	
+	color: #ffffff;
+	background-color: transparent;
+	border: none;
+
+}
+
+.filter-form-submit {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: transparent;
+	
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+}
