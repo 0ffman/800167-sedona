@@ -176,6 +176,29 @@ a {
 	border: none;
 }
 
+.search-form-find {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	
+	vertical-align: middle;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+
+	background-color: #81b3d2;
+	border: none;
+}
+
+.search-form-find:hover {
+	background-color: #669ec0;
+}
+
+.search-form-find:focus {
+	color: #94b9d2;
+	background-color: #5496bd;
+}
+
 
 
 
