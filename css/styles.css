@@ -311,7 +311,7 @@ a {
 
 ul.hotel-list {
 	font-size: 14px;
-  	line-height: 21px;
+	line-height: 21px;
   	font-weight: 400;
 	
 	color: #333333;
@@ -335,8 +335,8 @@ ul.hotel-list {
 
 .hotel a {
 	font-size: 14px;
-  	line-height: 21px;
-  	font-weight: 700;
+	line-height: 21px;
+	font-weight: 700;
   	color: #ffffff;
 }
 
