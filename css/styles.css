@@ -308,6 +308,10 @@ a {
 	border: none;
 }
 
+.sorting-list .sorting-active {
+	color: #81b3d2;
+	border: none;
+}
 
 ul.hotel-list {
 	font-size: 14px;
