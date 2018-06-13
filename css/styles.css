@@ -303,12 +303,8 @@ a {
 	color: #81b3d2;
 }
 
-.sorting-list-item a:focus {
-	color: #000000;
-	border: none;
-}
 .sorting-list-item a:active {
-	color: #81b3d2;
+	color: #000000;
 	border: none;
 }
 
