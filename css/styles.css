@@ -17,6 +17,8 @@ a {
 }
 
 .wrapper {
+	display: flex;
+	flex-direction: column;
 	width: 1200px;
 	margin: 0 auto;
 	color: #000000;
@@ -25,12 +27,28 @@ a {
 
 /*HEADER*/
 .main-header {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width:1200px;
+	min-height: 57px;
 	background-color: #ffffff;
 	color: #000000;
 }
 
+.main-navigation {
+	margin: 0 auto;
+}
+
 .main-list {
-	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1056px;
+	margin: 0;
+	padding: 0;
+	list-style: none;	
 }
 
 .main-list a {
@@ -41,6 +59,18 @@ a {
 }
 .main-list a:focus {
 	color: #cacaca;
+}
+.main-list li:nth-child(2) {
+	margin-right: 130px;
+}
+.main-list li:nth-child(3) {
+	margin-left: 130px;
+}
+
+.main-header-logo {
+	position: absolute;
+	left: 531px;
+	top: 0;
 }
 /*END HEADER*/
 /*FEATURES*/
