@@ -416,6 +416,11 @@ a {
 }
 /*END FILTER*/
 /*HOTELS*/
+.search-results {
+	width: 1056px;
+	margin: 0 auto;
+}
+
 .search-results-header {
 	font-size: 12px;
 	line-height: 18px;
