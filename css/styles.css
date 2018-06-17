@@ -302,6 +302,16 @@ a {
 }
 /*END SEARCH & FORM*/
 /*FOOTER*/
+.main-footer {
+	width: 967px;
+	min-height: 120px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .hash {
 	font-size: 21px;
 }
