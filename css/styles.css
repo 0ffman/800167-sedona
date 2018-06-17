@@ -167,6 +167,14 @@ a {
 	background-color: #eeeeee;
 }
 
+.feature-heading {
+	width: 155px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
 .feature-blue .feature-number,
 .feature-blue .feature-text {
 	color: #ffffff;
