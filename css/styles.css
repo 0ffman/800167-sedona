@@ -298,7 +298,8 @@ a {
 /*END SEARCH & FORM*/
 /*FOOTER*/
 .main-footer {
-	width: 967px;
+	width: 100%;
+	max-width: 967px;
 	min-height: 120px;
 	margin: 0 auto;
 	display: flex;
