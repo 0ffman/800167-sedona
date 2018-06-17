@@ -127,6 +127,7 @@ a {
 
 	padding: 49px 49px 45px 49px;
 	box-sizing: border-box;
+	justify-content: center;
 }
 .feature-item:nth-child(7) {
 	display: flex;
@@ -136,6 +137,7 @@ a {
 
 	padding: 49px 49px 45px 49px;
 	box-sizing: border-box;
+	justify-content: center;
 }
 .feature-item:nth-child(8) {
 	display: flex;
@@ -145,6 +147,7 @@ a {
 
 	padding: 49px 49px 45px 49px;
 	box-sizing: border-box;
+	justify-content: center;
 }
 
 .feature {
