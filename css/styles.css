@@ -47,13 +47,15 @@ a {
 
 .main-navigation {
 	margin: 0 auto;
+	max-width: 1056px;
+	width: 100%;
 }
 
 .main-list {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 1056px;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	list-style: none;	
