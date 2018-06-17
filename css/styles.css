@@ -340,7 +340,8 @@ a {
 .filter-form form {
 	display: flex;
 	flex-direction: row;
-	width: 1056px;
+	width: 100%;
+	max-width: 1056px;
 	margin: 0 auto;
 }
 
