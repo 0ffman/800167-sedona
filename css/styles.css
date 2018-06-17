@@ -480,9 +480,17 @@ ul.hotel-list {
 	font-size: 14px;
 	line-height: 21px;
   	font-weight: 400;
+  	margin: 0;
+  	padding: 0;
 	
 	color: #333333;
 	list-style: none;
+}
+
+.hotel {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
 }
 
 .hotel-list h3 {
