@@ -422,12 +422,21 @@ a {
 }
 
 .search-results-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	min-height: 87px;
 	font-size: 12px;
 	line-height: 18px;
 	font-weight: 400;
+	box-sizing: border-box;
 }
 
 .search-results-header ul {
+	display: flex;
+	flex-direction: row;
+	width: 775px;
+	margin: 0;
 	list-style: none;
 }
 
@@ -435,6 +444,17 @@ a {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 49px;
+}
+
+.sorting-list-item {
+	margin-right: 33px;
+}
+.sorting-list-item:last-child {
+	margin-right: 0;
+	margin-left: auto;
 }
 
 .sorting-list-item a {
