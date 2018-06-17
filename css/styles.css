@@ -12,6 +12,13 @@ body {
   background-color: #f2f2f2;
 }
 
+html { 
+	box-sizing: border-box; 
+}
+*, *::before, *::after { 
+	box-sizing: inherit; 
+}
+
 a {
 	text-decoration: none;
 }
@@ -136,7 +143,6 @@ a {
 	order: -1;
 
 	padding: 49px 49px 45px 49px;
-	box-sizing: border-box;
 	justify-content: center;
 }
 
@@ -145,7 +151,6 @@ a {
 	width: 400px;
 	min-height: 256px;
 	padding: 49px 49px 45px 49px;
-	box-sizing: border-box;
 }
 
 .feature-blue {
@@ -154,7 +159,6 @@ a {
 	padding: 49px 49px 24px 49px;
 	background-color: #81b3d2;
 	color: #ffffff;
-	box-sizing: border-box;
 }
 
 .feature.feature-gray {
@@ -412,7 +416,6 @@ a {
 	font-size: 12px;
 	line-height: 18px;
 	font-weight: 400;
-	box-sizing: border-box;
 }
 
 .search-results-header ul {
