@@ -189,13 +189,17 @@ a {
 }
 
 .search-question {
+	display: block;
+
 	font-size: 30px;
 	line-height: 36px;
+	margin-bottom: 26px;
 }
 .search-text {
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;
+	margin-bottom: 44px;
 	color: #333333;
 }
 
