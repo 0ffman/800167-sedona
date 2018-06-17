@@ -162,6 +162,11 @@ a {
 	color: #ffffff;
 	box-sizing: border-box;
 }
+
+.feature.feature-gray {
+	background-color: #eeeeee;
+}
+
 .feature-blue .feature-number,
 .feature-blue .feature-text {
 	color: #ffffff;
