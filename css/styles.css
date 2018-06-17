@@ -344,12 +344,33 @@ a {
 }
 /*FILTER*/
 .filter-form {
+	min-height: 217px;
 	background-color: #3c719c; /* До подключения изображения */
 	color: #ffffff;
 }
 
+.filter-form form {
+	display: flex;
+	flex-direction: row;
+	width: 1056px;
+	margin: 0 auto;
+}
+
 .filter-form-column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.filter-form-column:first-child {
+	margin-right: 116px;
+}
+
+.filter-form-column:last-child {
+	margin-left: auto;
 }
 
 .filter-form-column legend {
