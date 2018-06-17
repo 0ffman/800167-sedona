@@ -108,7 +108,7 @@ a {
 	text-align: center;
 	display: flex;
 	flex-direction: row;
-	flex-basis: calc(33% - 4px);
+	flex-basis: calc(33%);
 }
 
 .feature-item h2 {
