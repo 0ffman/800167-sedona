@@ -86,8 +86,9 @@ a {
 
 .main-header-logo {
 	position: absolute;
-	left: 44.3%;
+	left: 50%;
 	top: 0;
+	transform: translateX(-50%);
 }
 /*END HEADER*/
 /*FEATURES*/
