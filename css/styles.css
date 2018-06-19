@@ -472,6 +472,11 @@ ul.hotel-list {
   	margin: 0;
   	padding: 0;
 	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+  	min-height: 450px;
+	
 	color: #333333;
 	list-style: none;
 }
@@ -479,7 +484,10 @@ ul.hotel-list {
 .hotel {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	align-items: flex-start;
+
+	max-height: 150px;
 }
 
 .hotel-list h3 {
