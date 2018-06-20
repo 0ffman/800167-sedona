@@ -491,7 +491,12 @@ ul.hotel-list {
 }
 
 .hotel .hotel-image {
+	width: 135px;
 	margin-right: 30px;
+}
+
+.hotel-description {
+	width: 260px;
 }
 
 .hotel-list h3 {
@@ -542,6 +547,7 @@ ul.hotel-list {
 }
 
 .hotel-rating {
+	width: 115px;
 	margin-left: auto;
 }
 
