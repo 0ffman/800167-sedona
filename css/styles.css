@@ -523,6 +523,7 @@ ul.hotel-list {
 
 .hotel .button-blue {
 	background-color: #81b3d2;
+	padding: 7px 17px;
 }
 
 .hotel .button-blue:hover {
@@ -535,6 +536,7 @@ ul.hotel-list {
 
 .hotel .button-brown {
 	background-color: #766357;
+	padding: 7px 17px;
 }
 
 .hotel .button-brown:hover {
