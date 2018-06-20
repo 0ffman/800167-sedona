@@ -510,6 +510,10 @@ ul.hotel-list {
 	color: #000000;
 }
 
+.hotel-description-item {
+	display: inline-block;
+}
+
 .hotel-list h3:hover {
 	color: #81b3d2;
 }
