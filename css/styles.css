@@ -484,10 +484,14 @@ ul.hotel-list {
 .hotel {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-start;
+	justify-content: flex-start;
+	align-items: center;
 
 	max-height: 150px;
+}
+
+.hotel .hotel-image {
+	margin-right: 30px;
 }
 
 .hotel-list h3 {
