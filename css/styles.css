@@ -541,6 +541,10 @@ ul.hotel-list {
 	background-color: #503e33;
 }
 
+.hotel-rating {
+	margin-left: auto;
+}
+
 .hotel strong {
 	font-weight: 400;
 	color: #666666;
