@@ -89,8 +89,25 @@ a {
 	left: 50%;
 	top: 0;
 	transform: translateX(-50%);
+	z-index: 1;
 }
 /*END HEADER*/
+/*BANNER*/
+.banner {
+	position: relative;
+}
+
+.banner::after {
+	content: '';
+	position: absolute;
+	bottom: 8px;
+	background-image: url(../img/shape-bg.png);
+	display: block;
+	width: 1200px;
+	height: 57px;
+
+}
+/*END BANNER*/
 /*FEATURES*/
 .features-header {
 	text-align: center;
