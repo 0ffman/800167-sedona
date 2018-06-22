@@ -127,12 +127,14 @@ a {
 	font-size: 21px;
 	max-width: 580px;
 	margin: 0 auto;
+	margin-bottom: 30px;
 }
 
 .features-header p {
 	font-weight: 400;
 	color: #333333;
 	margin: 0;
+	margin-bottom: 50px;
 }
 .features-list {
 	display: flex;
