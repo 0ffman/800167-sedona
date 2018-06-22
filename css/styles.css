@@ -347,7 +347,31 @@ a {
 }
 
 .footer-social {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 150px;
 	text-align: center;
+}
+
+.social-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 46px;
+	height: 46px;
+	background-color: #81b3d2;
+}
+
+.social-btn:hover {
+	background-color: #669ec0;
+}
+
+.social-btn:active {
+	background-color: #5496bd;
+}
+.social-btn:active path {
+	fill: rgb(136,182,209);
 }
 
 .footer-copyright {
