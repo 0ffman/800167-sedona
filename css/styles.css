@@ -89,11 +89,13 @@ a {
 	left: 50%;
 	top: 0;
 	transform: translateX(-50%);
+	z-index: 1;
 }
 /*END HEADER*/
 /*BANNER*/
 .banner{
 	position: relative;
+	margin-bottom: 45px;
 }
 .banner-shape::before {
 	content: '';
@@ -104,6 +106,18 @@ a {
 	background-image: url(../img/shape-bg.png);
 	background-repeat: no-repeat;
 }
+
+.banner-shape::after {
+	content: '';
+	position: absolute;
+	width: 458px;
+	height: 352px;
+	bottom: 50%;
+	left:50%;
+	transform: translate(-50%, 36%);
+	background-image: url(../img/banner-text.png);
+	background-repeat: no-repeat;
+}
 /*END BANNER*/
 /*FEATURES*/
 .features-header {
@@ -111,7 +125,8 @@ a {
 }
 .features-header h1 {
 	font-size: 21px;
-	margin: 0;
+	max-width: 580px;
+	margin: 0 auto;
 }
 
 .features-header p {
