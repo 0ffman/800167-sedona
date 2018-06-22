@@ -93,21 +93,21 @@ a {
 }
 /*END HEADER*/
 /*BANNER*/
-.banner{
+.banner {
 	position: relative;
 	margin-bottom: 45px;
 }
-.banner-shape::before {
+.banner::before {
 	content: '';
 	position: absolute;
-	width: 1200px;
+	width: 100%;
 	height: 157px;
 	bottom: -92px;
 	background-image: url(../img/shape-bg.png);
 	background-repeat: no-repeat;
 }
 
-.banner-shape::after {
+.banner::after {
 	content: '';
 	position: absolute;
 	width: 458px;
