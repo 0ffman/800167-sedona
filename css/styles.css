@@ -91,6 +91,20 @@ a {
 	transform: translateX(-50%);
 }
 /*END HEADER*/
+/*BANNER*/
+.banner{
+	position: relative;
+}
+.banner-shape::before {
+	content: '';
+	position: absolute;
+	width: 1200px;
+	height: 157px;
+	bottom: -92px;
+	background-image: url(../img/shape-bg.png);
+	background-repeat: no-repeat;
+}
+/*END BANNER*/
 /*FEATURES*/
 .features-header {
 	text-align: center;
