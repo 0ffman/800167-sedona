@@ -421,6 +421,15 @@ a {
 
 .footer-copyright b {
 	font-weight: 400;
+	margin-right: 8px;
+}
+
+.academy-link:hover path {
+	fill: #81b3d2;
+}
+
+.academy-link:active path {
+	fill: #bdbbbc;
 }
 /*END FOOTER*/
 
