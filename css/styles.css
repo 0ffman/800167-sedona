@@ -180,40 +180,38 @@ a {
 	padding: 134px 49px 45px 49px;
 	justify-content: center;
 }
+
 .feature-icon::before {
 	content: '';
 	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	
+	background-repeat: no-repeat;
+}
+
+.feature-icon-home::before {
 	width: 75px;
 	height: 72px;
 	top: 60px;
-	left: 50%;
-	transform: translateX(-50%);
+	
 	background-image: url(../img/icon-home.svg);
-	background-repeat: no-repeat;
 }
 
-.feature-icon:nth-child(odd)::before {
-	content: '';
-	position: absolute;
+.feature-icon-food::before {
 	width: 74px;
 	height: 70px;
 	top: 60px;
-	left: 50%;
-	transform: translateX(-50%);
+	
 	background-image: url(../img/icon-food.svg);
-	background-repeat: no-repeat;
 }
 
-.feature-icon:last-child::before {
-	content: '';
-	position: absolute;
+.feature-icon-gift::before {
 	width: 64px;
 	height: 76px;
 	top: 56px;
-	left: 50%;
-	transform: translateX(-50%);
+	
 	background-image: url(../img/icon-gift.svg);
-	background-repeat: no-repeat;
 }
 
 .feature-option-item h2 {
