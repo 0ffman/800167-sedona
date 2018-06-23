@@ -171,15 +171,55 @@ a {
 	order: -1;
 }
 .feature-option-item {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	min-height: 330px;
 	order: -1;
 
-	padding: 49px 49px 45px 49px;
+	padding: 134px 49px 45px 49px;
 	justify-content: center;
 }
+.feature-icon::before {
+	content: '';
+	position: absolute;
+	width: 75px;
+	height: 72px;
+	top: 60px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-image: url(../img/icon-home.svg);
+	background-repeat: no-repeat;
+}
 
+.feature-icon:nth-child(odd)::before {
+	content: '';
+	position: absolute;
+	width: 74px;
+	height: 70px;
+	top: 60px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-image: url(../img/icon-food.svg);
+	background-repeat: no-repeat;
+}
+
+.feature-icon:last-child::before {
+	content: '';
+	position: absolute;
+	width: 64px;
+	height: 76px;
+	top: 56px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-image: url(../img/icon-gift.svg);
+	background-repeat: no-repeat;
+}
+
+.feature-option-item h2 {
+	margin-bottom: 7px;
+	margin-top: 6px;
+}
 
 .feature {
 	width: 400px;
@@ -223,6 +263,7 @@ a {
 	font-size: 30px;
 	line-height: 36px;
 	margin-bottom: 26px;
+	margin-top: 35px;
 }
 .search-text {
 	font-size: 14px;
