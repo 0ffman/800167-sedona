@@ -441,7 +441,8 @@ a {
 /*FILTER*/
 .filter-form {
 	min-height: 217px;
-	background-color: #3c719c; /* До подключения изображения */
+	background-image: url(../img/hotels-bg.jpg);
+	background-repeat: no-repeat;
 	color: #ffffff;
 }
 
