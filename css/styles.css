@@ -422,11 +422,15 @@ a {
 	margin-right: 8px;
 }
 
-.academy-link:hover path {
+.academy-link {
+	fill: #231f20;
+}
+
+.academy-link:hover {
 	fill: #81b3d2;
 }
 
-.academy-link:active path {
+.academy-link:active {
 	fill: #bdbbbc;
 }
 /*END FOOTER*/
