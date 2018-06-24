@@ -327,6 +327,9 @@ a {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
+	width: 38px;
+	height: 38px;
+	padding: 0;
 	
 	color: #a9a9a9;
 	/*vertical-align: middle;*/
@@ -342,6 +345,48 @@ a {
 .amount-btn:focus {
 	color: #81b3d2;
 	z-index: 1;
+}
+
+.amount-btn-minus,
+.amount-btn-plus {
+	position: relative;
+}
+
+.amount-btn-minus::before {
+	position: absolute;
+	left: 14px;
+	content: '';
+
+	width: 10px;
+	height: 3px;
+	background-color: #a9a9a9;
+}
+
+.amount-btn-minus:hover::before,
+.amount-btn-plus:hover::before, 
+.amount-btn-plus:hover::after {
+	background-color: #000000;
+}
+
+.amount-btn-minus:active::before, 
+.amount-btn-plus:active::before, 
+.amount-btn-plus:active::after {
+	background-color: #81b3d2;
+}
+
+.amount-btn-plus::before, 
+.amount-btn-plus::after {
+	position: absolute;
+	left: 14px;
+	content: '';
+
+	width: 11px;
+	height: 3px;
+	background-color: #a9a9a9;
+}
+
+.amount-btn-plus::after {
+	transform: rotate(-90deg);
 }
 
 .search-form {
@@ -377,8 +422,9 @@ a {
 }
 
 .amount-field {
-	width: 48px;
-	padding-left: 20px;
+	width: 38px;
+	height: 38px;
+	padding-left: 14px;
 	padding-top: 6px;
 	padding-bottom: 6px;
 	background-color: #f2f2f2;
