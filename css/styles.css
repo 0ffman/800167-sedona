@@ -323,6 +323,11 @@ a {
 	padding: 6px 45px 6px 13px;
 }
 
+.search-form-field::placeholder {
+	color:#000;
+	opacity: 1;
+}
+
 .amount-btn {
 	font-size: 21px;
 	line-height: 26px;
@@ -331,6 +336,7 @@ a {
 	height: 38px;
 	padding: 0;
 	
+	background-color: #f2f2f2;
 	color: #a9a9a9;
 	/*vertical-align: middle;*/
 	/*text-align: center;*/
@@ -429,6 +435,12 @@ a {
 	padding-bottom: 6px;
 	background-color: #f2f2f2;
 }
+
+.amount-field::placeholder {
+	color:#000;
+	opacity: 1;
+}
+
 
 .amount-field:focus {
 	z-index: 1;
