@@ -252,6 +252,7 @@ a {
 /*END FEATURES*/
 /*SEARCH & FORM*/
 .search {
+	position: relative;
 	text-align: center;
 }
 
@@ -295,6 +296,10 @@ a {
 	background-color: #503e33;
 }
 
+.search-form-label {
+	margin-right: 21px;
+}
+
 .search-form-row input {
 	font: inherit;
 	text-transform: uppercase;
@@ -312,14 +317,22 @@ a {
 	border: 2px solid #e5e5e5;
 }
 
+.search-form-field {
+	width: 346px;
+	height: 38px;
+	padding: 6px;
+	padding-right: 45px;
+	padding-left: 13px;
+}
+
 .amount-btn {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
 	
 	color: #a9a9a9;
-	vertical-align: middle;
-	text-align: center;
+	/*vertical-align: middle;*/
+	/*text-align: center;*/
 
 	border: none;
 }
@@ -332,17 +345,72 @@ a {
 	color: #81b3d2;
 }
 
+.search-form {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #fff;
+	width: 569px;
+	padding: 55px;
+	margin: 0 auto;
+}
+
+.search-form-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.search-form-row:last-child {
+	margin: 0;
+}
+
+div.search-form-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 54px;
+}
+
+.search-form-column {
+	display: flex;
+	align-items: center;
+}
+
+.amount {
+	display: flex;
+	margin-left: 20px;
+}
+
+.amount-field {
+	width: 48px;
+	padding-left: 20px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: #f2f2f2;
+}
+
 .search-form-calendar {
+	position: absolute;
+	top: 8px;
+	right: 13px;
 	width: 24px;
 	height: 23px;
-	vertical-align: middle;
 	
-	color: #cacaca;
-	background-image: url(../img/calendar.svg);
-	background-repeat: no-repeat;
+	fill: #cacaca;
 	background-color: transparent;
-	
 	border: none;
+}
+
+.search-form-calendar:hover {
+	fill: #000000;
+}
+
+.search-form-calendar:active {
+	fill: #81b3d2;
 }
 
 .search-form-find {
