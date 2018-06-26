@@ -659,18 +659,12 @@ a {
 	outline: 5px auto -webkit-focus-ring-color;
 }
 
-.checkbox input[type="checkbox"]:checked + label::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 27px;
-	height: 23px;
+.checkbox input[type="checkbox"]:checked + label::before {
 	background-image: url(../img/checkbox-on.svg);
 	background-repeat: no-repeat;
 }
 
-.checkbox input[type="checkbox"]:disabled + label::after {
+.checkbox input[type="checkbox"]:disabled + label::before {
 	background-image: url(../img/checkbox-on-disabled.svg);
 	background-repeat: no-repeat;
 }
