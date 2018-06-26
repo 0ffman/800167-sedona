@@ -696,7 +696,7 @@ a {
 }
 
 .checkbox input[type="checkbox"]:disabled + label::before {
-	background-image: url(../img/checkbox-on-disabled.svg);
+	background-image: url(../img/checkbox-off-disabled.svg);
 	background-repeat: no-repeat;
 }
 
