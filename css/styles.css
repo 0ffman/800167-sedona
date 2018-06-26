@@ -618,6 +618,10 @@ a {
 	font-weight: 400;
 }
 
+.checkbox {
+	margin-bottom: 20px;
+}
+
 .checkbox input[type="checkbox"] + label {
     position: relative;
     padding-left: 17px;
@@ -680,13 +684,14 @@ a {
 
 .price-fields label {
     display: inline-block;
+    vertical-align: middle;
     cursor: pointer; 
     width: 90px;
 }
 
 .price-field {
   position: relative;
-  
+  vertical-align: middle;
   display: inline-block;
   font-size: 0;
 }
@@ -714,6 +719,8 @@ a {
     font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
+	margin: 0;
+	vertical-align: middle;
 	
 	color: #ffffff;
 	background-color: transparent;
@@ -769,6 +776,7 @@ a {
 .filter-form-submit {
 	display: block;
   	margin: 0 auto;
+  	padding: 6px 35px;
     font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
