@@ -628,8 +628,8 @@ a {
 	padding-left: 17px;
 }
 
-.checkbox + label:hover, 
-.checkbox + label:focus {
+.checkbox label:hover, 
+.checkbox label:focus {
     /* color: #f00; */
 }
 
