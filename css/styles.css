@@ -642,6 +642,12 @@ a {
     cursor:pointer;
 }
 
+.checkbox input[type="checkbox"]:disabled + label::before {
+    background-image: url(../img/checkbox-off-disabled.svg);
+    background-repeat: no-repeat;
+   
+}
+
 .checkbox input[type="checkbox"]:focus + label::before {
   border-color: #663d15;
   outline: thin dotted;
@@ -656,6 +662,11 @@ a {
   width: 27px;
   height: 23px;
   background-image: url(../img/checkbox-on.svg);
+  background-repeat: no-repeat;
+}
+
+.checkbox input[type="checkbox"]:disabled + label::after {
+  background-image: url(../img/checkbox-on-disabled.svg);
   background-repeat: no-repeat;
 }
 
