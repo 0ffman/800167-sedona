@@ -639,7 +639,7 @@ a {
 	position: relative;
 	left: -17px;
 	vertical-align: middle; 
-	width: 23px;
+	width: 27px;
 	height: 23px;
 	background-image: url(../img/checkbox-off.svg);
 	background-repeat: no-repeat;
@@ -660,6 +660,7 @@ a {
 }
 
 .checkbox input[type="checkbox"]:checked + label::before {
+	width: 27px;
 	background-image: url(../img/checkbox-on.svg);
 	background-repeat: no-repeat;
 }
