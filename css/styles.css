@@ -395,14 +395,43 @@ a {
 	transform: rotate(-90deg);
 }
 
+@keyframes appear {
+  
+	0% {
+    transform: translateY(100px);
+}
+
+	70% {
+    transform: translateY(0px);
+}
+
+	90% {
+    transform: translateY(0px);
+}
+
+	100% {
+    transform: translateY(0px);
+}
+  
+}
+
+
 .search-form {
+	display: none;
 	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
+	left: 26%;
+	transform: translateX(0);
 	background-color: #fff;
 	width: 569px;
 	padding: 55px 55px 65px 55px;
 	margin: 0 auto;
+}
+
+.search-form-show {
+	display: block;
+	-webkit-animation: appear 2s ease-in-out;
+	-o-animation: appear 2s ease-in-out;
+	animation: appear 2s ease-in-out;
 }
 
 .search-form-row {
