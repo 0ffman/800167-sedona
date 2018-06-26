@@ -592,10 +592,11 @@ a {
 }
 
 .filter-form-column:first-child {
-	margin-right: 116px;
+	margin-right: 119px;
 }
 
 .filter-form-column:last-child {
+	width: 317px;
 	margin-left: auto;
 }
 
@@ -623,8 +624,8 @@ a {
 }
 
 .checkbox input[type="checkbox"] + label {
-    position: relative;
-    padding-left: 17px;
+	position: relative;
+	padding-left: 17px;
 }
 
 .checkbox + label:hover, 
@@ -633,45 +634,45 @@ a {
 }
 
 .checkbox input[type="checkbox"] + label::before {
-    content: '';
-    display: inline-block;
-    position: relative;
-    left: -17px;
-    vertical-align: middle; 
-    width:23px;
-    height:23px;
-    background-image: url(../img/checkbox-off.svg);
-    background-repeat: no-repeat;
-    
-    cursor:pointer;
+	content: '';
+	display: inline-block;
+	position: relative;
+	left: -17px;
+	vertical-align: middle; 
+	width: 23px;
+	height: 23px;
+	background-image: url(../img/checkbox-off.svg);
+	background-repeat: no-repeat;
+	    
+	cursor:pointer;
 }
 
 .checkbox input[type="checkbox"]:disabled + label::before {
-    background-image: url(../img/checkbox-off-disabled.svg);
-    background-repeat: no-repeat;
+	background-image: url(../img/checkbox-off-disabled.svg);
+	background-repeat: no-repeat;
    
 }
 
 .checkbox input[type="checkbox"]:focus + label::before {
-  border-color: #663d15;
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+	border-color: #663d15;
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
 }
 
 .checkbox input[type="checkbox"]:checked + label::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 27px;
-  height: 23px;
-  background-image: url(../img/checkbox-on.svg);
-  background-repeat: no-repeat;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 27px;
+	height: 23px;
+	background-image: url(../img/checkbox-on.svg);
+	background-repeat: no-repeat;
 }
 
 .checkbox input[type="checkbox"]:disabled + label::after {
-  background-image: url(../img/checkbox-on-disabled.svg);
-  background-repeat: no-repeat;
+	background-image: url(../img/checkbox-on-disabled.svg);
+	background-repeat: no-repeat;
 }
 
 .price-fields {
@@ -690,27 +691,27 @@ a {
 }
 
 .price-field {
-  position: relative;
-  vertical-align: middle;
-  display: inline-block;
-  font-size: 0;
+	position: relative;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 0;
 }
 
 .price-fields::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-  width: 2px;
-  height: 22px;
-  background-color: #fff;
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	  
+	width: 2px;
+	height: 22px;
+	background-color: #fff;
 }
 
 .price-field label {
-  width: 90px;
-  padding-left: 50px;
+	width: 90px;
+	padding-left: 50px;
 }
 
 
@@ -729,50 +730,50 @@ a {
 }
 
 .price-panel {
-  position: relative;
-  margin-bottom: 25px;
+	position: relative;
+	margin-bottom: 25px;
 }
 
 .price-line {
-  display: inline-block;
-  width: 100%;
-  height: 2px;
-  vertical-align: baseline;
+	display: inline-block;
+	width: 100%;
+	height: 2px;
+	vertical-align: baseline;
 
-  background: rgba(255, 255, 255, 0.3);
+	background: rgba(255, 255, 255, 0.3);
 }
 
 .price-line-inner {
-  display: block;
-  width: 80%;
-  height: 2px;
-  background-color: #fff;
+	display: block;
+	width: 80%;
+	height: 2px;
+	background-color: #fff;
 }
 
 .price-btn {
-  position: absolute;
-  top: 7px;
-  width: 20px;
-  height: 20px;
-  padding: 0;
+	position: absolute;
+	top: 7px;
+	width: 20px;
+	height: 20px;
+	padding: 0;
 
-  background-color: #ababab;
-  border: 8px solid #ffffff;
-  border-radius: 50%;
-  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
-  cursor: pointer;
+	background-color: #ababab;
+	border: 8px solid #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+	cursor: pointer;
 }
 
 .price-btn:hover {
-  background-color: #1c4f80;
+	background-color: #1c4f80;
 }
 
 .price-btn-from {
-  left: 0;
+	left: 0;
 }
 
 .price-btn-to {
-  left: 80%;
+	left: 80%;
 }
 
 .filter-form-submit {
