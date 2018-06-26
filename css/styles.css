@@ -620,7 +620,7 @@ a {
 
 .checkbox input[type="checkbox"] + label {
     position: relative;
-    padding-left: 30px;
+    padding-left: 17px;
 }
 
 .checkbox + label:hover, 
@@ -630,9 +630,10 @@ a {
 
 .checkbox input[type="checkbox"] + label::before {
     content: '';
-    position: absolute;
-    left:0;
-    top: 0; 
+    display: inline-block;
+    position: relative;
+    left: -17px;
+    vertical-align: middle; 
     width:23px;
     height:23px;
     background-image: url(../img/checkbox-off.svg);
@@ -652,7 +653,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 23px;
+  width: 27px;
   height: 23px;
   background-image: url(../img/checkbox-on.svg);
   background-repeat: no-repeat;
