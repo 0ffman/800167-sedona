@@ -1031,6 +1031,7 @@ ul.hotel-list {
 }
 
 .hotel strong {
+	padding: 3px 15px;
 	font-weight: 400;
 	color: #666666;
 	background-color: #f2f2f2;
