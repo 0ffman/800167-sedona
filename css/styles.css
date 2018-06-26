@@ -874,6 +874,10 @@ a {
 	border-bottom: 1px dashed #81b3d2;
 }
 
+.sorting-list-item:last-child a {
+	border: none;
+}
+
 .sorting-list-item a:hover {
 	color: #81b3d2;
 }
@@ -886,6 +890,22 @@ a {
 .sorting-list .sorting-active {
 	color: #81b3d2;
 	border: none;
+}
+
+.sorting-list-arrow {
+	fill: #cacaca;
+}
+
+.sorting-list-arrow:hover {
+	fill: #231f20;
+}
+
+.sorting-list-arrow:active {
+	fill: #81b3d2;
+}
+
+.sorting-list-item .arrow-active {
+	fill: #81b3d2;
 }
 
 
