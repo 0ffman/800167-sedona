@@ -713,11 +713,6 @@ a {
 	background-repeat: no-repeat;
 }
 
-.checkbox input[type="checkbox"]:disabled + label::before {
-	background-image: url(../img/checkbox-off-disabled.svg);
-	background-repeat: no-repeat;
-}
-
 .price-fields {
 	position: relative;
     border: 2px solid #ffffff;
