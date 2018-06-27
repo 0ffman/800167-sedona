@@ -32,7 +32,7 @@ a {
 	height: 1px;
 	margin: -1px;
 	left: -9999px;
-	top: -9999px
+	top: -9999px;
 }
 
 .wrapper {
@@ -64,6 +64,7 @@ a {
 	        align-items: center;
 	width:1200px;
 	min-height: 57px;
+	height: 10px;
 	background-color: #ffffff;
 	color: #000000;
 }
@@ -117,6 +118,11 @@ a {
 	z-index: 1;
 }
 /*END HEADER*/
+
+.main-content {
+	display: block;
+}
+
 /*BANNER*/
 .banner {
 	position: relative;
@@ -189,8 +195,12 @@ a {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: row;
 	        flex-direction: row;
-	-ms-flex-preferred-size: 33%;
-	    flex-basis: 33%;
+	width: 33%;
+	flex-grow: 1;
+}
+
+.feature-item.features-row-conversely {
+	flex-basis: 100%;
 }
 
 .feature-item h2 {
@@ -222,6 +232,7 @@ a {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
+	height: 10px;
 	min-height: 330px;
 	-webkit-box-ordinal-group: 0;
 	    -ms-flex-order: -1;
