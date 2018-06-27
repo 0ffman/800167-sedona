@@ -679,6 +679,10 @@ a {
 	z-index: -5;
 	
 }
+
+.map-google iframe {
+	border: 0;
+}
 /*END MAP*/
 
 /*FOOTER*/
