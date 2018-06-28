@@ -5,6 +5,8 @@ var arrival = searchForm.querySelector("[name=arrival]");
 var exit = searchForm.querySelector("[name=exit]");
 var adult = searchForm.querySelector("[name=adult]");
 
+searchForm.classList.remove("search-form-show");
+
 toggleButton.addEventListener("click", function(evt) {
   if (searchForm.classList.contains("search-form-show")) {
       searchForm.classList.remove("search-form-show");
