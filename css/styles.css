@@ -54,19 +54,8 @@ a {
 /*HEADER*/
 .main-header {
 	position: relative;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
 	width:1200px;
 	min-height: 57px;
-	height: 10px;
 	background-color: #ffffff;
 	color: #000000;
 }
@@ -78,6 +67,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    min-height: 53px;
 }
 
 .main-nav-column {
@@ -86,6 +76,10 @@ a {
 	flex-wrap: wrap;
 	width: 338px;
 	align-items: center;
+}
+
+.main-nav-column:last-child {
+	width: 329px;
 }
 
 .main-nav-column a {
