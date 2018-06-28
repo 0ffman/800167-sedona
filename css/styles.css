@@ -1143,17 +1143,12 @@ ul.hotel-list {
 	-webkit-box-pack: start;
 	    -ms-flex-pack: start;
 	        justify-content: flex-start;
-	max-height: 150px;
 	padding-bottom: 30px;
 }
 
 .hotel .hotel-image {
 	width: 135px;
 	margin-right: 30px;
-}
-
-.hotel-description {
-	max-height: 90px;
 }
 
 .hotel-list h3 {
