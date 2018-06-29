@@ -58,6 +58,7 @@ a {
 	min-height: 57px;
 	background-color: #ffffff;
 	color: #000000;
+	z-index: 1;
 }
 
 .main-navigation {
@@ -111,7 +112,8 @@ a {
 /*BANNER*/
 .banner {
 	position: relative;
-	margin-bottom: 45px;
+	margin-bottom: 50px;
+	margin-top: -83px;
 }
 .banner::before {
 	content: '';
@@ -128,7 +130,7 @@ a {
 	position: absolute;
 	width: 458px;
 	height: 352px;
-	bottom: 50%;
+	bottom: 36%;
 	left:50%;
 	-webkit-transform: translate(-50%, 36%);
 	    -ms-transform: translate(-50%, 36%);
