@@ -10,6 +10,7 @@ searchForm.classList.remove("search-form-show");
 toggleButton.addEventListener("click", function(evt) {
   if (searchForm.classList.contains("search-form-show")) {
       searchForm.classList.remove("search-form-show");
+      searchForm.classList.remove("search-form-error");
   } 
   else {
     searchForm.classList.add("search-form-show");
@@ -20,5 +21,8 @@ toggleButton.addEventListener("click", function(evt) {
 form.addEventListener("submit", function (evt) {
   if (!arrival.value || !exit.value || !adult.value ) {
       evt.preventDefault();
+      searchForm.classList.remove("search-form-error");
+      searchForm.offsetWidth = searchForm.offsetWidth;
+      searchForm.classList.add("search-form-error");
   }
   });
