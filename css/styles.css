@@ -147,7 +147,7 @@ a {
 	font-size: 21px;
 	max-width: 580px;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	margin-bottom: 28px;
 }
 
 .features-header p {
@@ -203,6 +203,16 @@ a {
 .feature-item .feature-text {
 	font-weight: 400;
 	color: #333333;
+	line-height: 21px;
+}
+
+.feature-gray p {
+	margin: 18px 0 14px 0;
+}
+
+.features-row-conversely .feature-text {
+	margin: 16px 0 0 0;
+	line-height: 23px;
 }
 
 .feature-item:first-child {
@@ -253,7 +263,7 @@ a {
 .feature-icon-food::before {
 	width: 74px;
 	height: 70px;
-	top: 60px;
+	top: 62px;
 	
 	background-image: url(../img/icon-food.svg);
 }
@@ -268,13 +278,13 @@ a {
 
 .feature-option-item h2 {
 	margin-bottom: 7px;
-	margin-top: 6px;
+	margin-top: 5px;
 }
 
 .feature {
 	width: 400px;
 	min-height: 256px;
-	padding: 49px 49px 45px 49px;
+	padding: 49px 65px 45px 65px;
 }
 
 .feature-blue {
