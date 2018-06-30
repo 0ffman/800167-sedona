@@ -715,7 +715,7 @@ a {
 .main-footer {
 	width: 100%;
 	max-width: 1200px;
-	min-height: 120px;
+	min-height: 127px;
 	margin: 0 auto;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -753,7 +753,7 @@ a {
 .hash {
 	font-size: 21px;
 	margin-left: 16px;
-	margin-bottom: 18px;
+	margin-bottom: 11px;
 }
 
 .footer-social {
@@ -767,7 +767,7 @@ a {
 	        justify-content: space-between;
 	width: 150px;
 	margin-left: 48px;
-	margin-top: -15px;
+	margin-top: -7px;
 	text-align: center;
 }
 
