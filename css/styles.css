@@ -741,9 +741,19 @@ a {
 	opacity: 0.9;
 }
 
+.main-footer-wrapper {
+	width: 967px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
 .hash {
 	font-size: 21px;
-	margin-left: 17px;
+	margin-left: 16px;
+	margin-bottom: 18px;
 }
 
 .footer-social {
@@ -757,7 +767,7 @@ a {
 	        justify-content: space-between;
 	width: 150px;
 	margin-left: 48px;
-	margin-top: 4px;
+	margin-top: -15px;
 	text-align: center;
 }
 
