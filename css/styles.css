@@ -554,7 +554,8 @@ a {
 	        transform: translateX(0);
 	background-color: #fff;
 	width: 569px;
-	padding: 55px 55px 65px 55px;
+	min-height: 395px;
+	padding: 55px;
 	margin: 0 auto;
 	z-index: 1;
 	box-shadow: 0 7px 15px rgba(0,0,0,0.15);
@@ -670,8 +671,9 @@ a {
 	line-height: 26px;
 	font-weight: 700;
 	
-	margin-top: 10px;
-	padding: 21px 196px;
+	margin-left: 4px;
+	margin-top: 54px;
+	padding: 16px 196px;
 	vertical-align: middle;
 	text-align: center;
 	color: #ffffff;
