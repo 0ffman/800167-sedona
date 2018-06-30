@@ -594,6 +594,8 @@ a {
 	margin: 0;
 }
 
+.search-form-arrival,
+.search-form-exit,
 .search-form-adults,
 .search-form-childs {
 	display: -webkit-box;
@@ -614,6 +616,15 @@ a {
 
 .search-form-childs label {
 	margin-right: 26px;
+}
+
+.search-form-arrival label {
+	margin-left: 2px;
+}
+
+.search-form-exit label {
+	margin-left: 2px;
+	margin-right: 20px;
 }
 
 .amount {
@@ -683,7 +694,6 @@ a {
 	line-height: 26px;
 	font-weight: 700;
 	
-	margin-left: 2px;
 	margin-top: 54px;
 	padding: 16px 195px;
 	vertical-align: middle;
