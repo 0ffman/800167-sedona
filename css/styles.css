@@ -198,6 +198,34 @@ a {
 .feature-item .feature-number {
 	font-weight: 400;
 	color: #333333;
+	position: relative;
+}
+
+.feature-item .feature-number::after {
+	content: '';
+
+	position: absolute;
+	width: 8px;
+	height: 2px;
+	background-color: #333333;
+	top: 50%;
+	right: -15px;
+}
+
+.feature-item .feature-number::before {
+	content: '';
+
+	position: absolute;
+	width: 8px;
+	height: 2px;
+	background-color: #333333;
+	top: 50%;
+	left: -15px;
+}
+
+.feature-blue .feature-number::before,
+.feature-blue .feature-number::after {
+	background-color: #ffffff;
 }
 
 .feature-item .feature-text {
