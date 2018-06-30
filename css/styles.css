@@ -359,7 +359,7 @@ a {
 }
 
 .search-form-label {
-	margin-right: 21px;
+	margin-right: 24px;
 }
 
 .search-form-row input {
@@ -382,7 +382,7 @@ a {
 .search-form-field {
 	width: 346px;
 	height: 38px;
-	padding: 6px 45px 6px 7px;
+	padding: 6px 45px 6px 9px;
 }
 
 .search-form-field::-webkit-input-placeholder {
@@ -594,14 +594,26 @@ a {
 	margin: 0;
 }
 
-.search-form-column {
+.search-form-adults,
+.search-form-childs {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	margin-right: 20px;
+}
+
+.search-form-adults {
+	margin-right: 55px;
+}
+
+.search-form-adults label {
+	margin-right: 40px;
+}
+
+.search-form-childs label {
+	margin-right: 26px;
 }
 
 .amount {
@@ -647,7 +659,7 @@ a {
 .search-form-calendar {
 	position: absolute;
 	top: 8px;
-	right: 5px;
+	right: 10px;
 	width: 24px;
 	height: 23px;
 	padding: 0;
@@ -671,9 +683,9 @@ a {
 	line-height: 26px;
 	font-weight: 700;
 	
-	margin-left: 4px;
+	margin-left: 2px;
 	margin-top: 54px;
-	padding: 16px 196px;
+	padding: 16px 195px;
 	vertical-align: middle;
 	text-align: center;
 	color: #ffffff;
