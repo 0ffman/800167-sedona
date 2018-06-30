@@ -1081,6 +1081,7 @@ a {
 
 .price-btn:hover {
 	background-color: #1c4f80;
+	transform: scaleY(1.1) scaleX(1.1);
 }
 
 .price-btn-from {
