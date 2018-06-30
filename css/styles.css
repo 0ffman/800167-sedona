@@ -833,6 +833,7 @@ a {
 	min-height: 217px;
 	background-color: #3c719c;
 	background-image: url(../img/hotels-bg.jpg);
+	background-position-y: -57px;
 	background-repeat: no-repeat;
 	color: #ffffff;
 }
@@ -875,7 +876,7 @@ a {
 }
 
 .filter-form-column:last-child legend {
-	margin-bottom: 9px;
+	margin-bottom: 11px;
 }
 
 .filter-form-column label {
@@ -890,7 +891,7 @@ a {
 
 .checkbox input[type="checkbox"] + label {
 	position: relative;
-	padding-left: 17px;
+	padding-left: 13px;
 }
 
 .checkbox label:hover, 
@@ -902,7 +903,7 @@ a {
 	content: '';
 	display: inline-block;
 	position: relative;
-	left: -17px;
+	left: -13px;
 	vertical-align: middle; 
 	width: 27px;
 	height: 23px;
@@ -973,7 +974,7 @@ a {
 
 .price-field label {
 	width: 90px;
-	padding-left: 50px;
+	padding-left: 64px;
 }
 
 
@@ -1042,7 +1043,8 @@ a {
 .filter-form-submit {
 	display: block;
   	margin: 0 auto;
-  	padding: 6px 35px;
+  	margin-right: 94px;
+  	padding: 5px 35px;
     font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
