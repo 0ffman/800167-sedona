@@ -1214,6 +1214,11 @@ img {
   margin: 0 0 0 40px;
   padding: 0;
   list-style: none;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .sorting-list-title {
@@ -1231,6 +1236,7 @@ img {
 
 .sorting-list-item {
   margin-right: 33px;
+  flex-shrink: 0;
 }
 
 .sorting-list-item:last-child {
