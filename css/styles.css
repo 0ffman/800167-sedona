@@ -1326,6 +1326,7 @@ img {
 
 .hotel-description-item {
   display: inline-block;
+  vertical-align: bottom;
 }
 
 .hotel-description-item a {
