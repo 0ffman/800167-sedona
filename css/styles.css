@@ -1316,6 +1316,7 @@ img {
 .hotel .hotel-image {
   width: 135px;
   margin-right: 30px;
+  align-self: flex-start;
 }
 
 .hotel-list h3 {
@@ -1329,6 +1330,7 @@ img {
 .hotel-description-item {
   display: inline-block;
   vertical-align: bottom;
+  max-width: 150px;
 }
 
 .hotel-description-item a {
@@ -1397,6 +1399,7 @@ img {
   align-items: flex-end;
   width: 115px;
   margin-left: auto;
+  flex-shrink: 0;
 }
 
 .hotel-rating-stars img {
