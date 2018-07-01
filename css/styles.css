@@ -96,6 +96,8 @@ img {
 .main-nav-column a {
   margin-right: 144px;
   color: #000000;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .main-nav-column:last-child a {
