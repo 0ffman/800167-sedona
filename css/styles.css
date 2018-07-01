@@ -417,11 +417,11 @@ img {
   border: none;
 }
 
-.btn-search:hover {
+.btn-search:hover, .btn-search:focus {
   background-color: #604e43;
 }
 
-.btn-search:focus {
+.btn-search:active {
   color: #928a85;
   background-color: #503e33;
 }
@@ -784,11 +784,11 @@ img {
   border: none;
 }
 
-.search-form-find:hover {
+.search-form-find:hover, .search-form-find:focus {
   background-color: #669ec0;
 }
 
-.search-form-find:focus {
+.search-form-find:active {
   color: #94b9d2;
   background-color: #5496bd;
 }
