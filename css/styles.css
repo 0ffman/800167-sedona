@@ -111,7 +111,7 @@ img {
 }
 
 .main-nav-column a:focus {
-  color: #cacaca;
+  color: #81b3d2;
 }
 
 .main-nav-column a:active {
@@ -1238,7 +1238,7 @@ img {
 
 .sorting-list-item a {
   color: rgba(0, 0, 0, 0.3);
-  border-bottom: 1px dashed #81b3d2;
+  border-bottom: 1px dotted #81b3d2;
 }
 
 .sorting-list-item:last-child a {
