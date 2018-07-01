@@ -1053,6 +1053,7 @@ img {
   height: 36px;
   margin-bottom: 4px;
   font-size: 0;
+  padding-top: 3px;
 }
 
 .price-field {
