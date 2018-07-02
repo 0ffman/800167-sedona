@@ -110,6 +110,10 @@ img {
   padding-right: 40px;
 }
 
+.main-list a {
+  color: #000000;
+}
+
 .main-list-right {
   text-align: right;
 }
