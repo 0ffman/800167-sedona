@@ -95,9 +95,7 @@ img {
   width: 100%;
   margin: 0;
   padding: 0 31px 0 28px;
-
   list-style: none;
-
 }
 
 .main-list li {
@@ -431,7 +429,8 @@ img {
   border: none;
 }
 
-.btn-search:hover, .btn-search:focus {
+.btn-search:hover,
+.btn-search:focus {
   background-color: #604e43;
 }
 
@@ -798,7 +797,8 @@ img {
   border: none;
 }
 
-.search-form-find:hover, .search-form-find:focus {
+.search-form-find:hover,
+.search-form-find:focus {
   background-color: #669ec0;
 }
 
