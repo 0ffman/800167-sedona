@@ -829,8 +829,7 @@ img {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 36px;
-  padding-bottom: 44px;
+  padding: 36px 100px 46px 132px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -840,7 +839,7 @@ img {
   flex-direction: row;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-around;
+  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -850,22 +849,6 @@ img {
 .main-footer-index {
   position: absolute;
   bottom: 0;
-}
-
-.main-footer-wrapper {
-  width: 1000px;
-  padding-left: 33px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -ms-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .hash {
