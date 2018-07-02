@@ -801,18 +801,19 @@ img {
 
 /*MAP*/
 
-.map-google {
+.map {
   position: relative;
+  min-height: 593px;
   z-index: 0;
 }
 
-.map-google img {
+.map img {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.map-google iframe {
+.map iframe {
   position: relative;
   border: 0;
   z-index: 1;
